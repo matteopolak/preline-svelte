@@ -1,8 +1,8 @@
 <script lang="ts">
 	import { getContext } from 'svelte';
 
-	let striped = getContext('striped') ?? false;
-	let hoverable = getContext('hoverable') ?? false;
+	let striped = getContext('table_striped') ?? false;
+	let hoverable = getContext('table_hoverable') ?? false;
 </script>
 
 <tr

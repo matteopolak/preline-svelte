@@ -4,8 +4,8 @@
 	export let striped = false;
 	export let hoverable = false;
 
-	setContext('striped', striped);
-	setContext('hoverable', hoverable);
+	setContext('table_striped', striped);
+	setContext('table_hoverable', hoverable);
 </script>
 
 <div class="flex flex-col">

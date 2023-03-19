@@ -9,7 +9,7 @@
 	export let size: 'sm' | 'md' | 'lg' = 'md';
 	export let pill = false;
 
-	let grouped = getContext('grouped') ?? false;
+	let grouped = getContext('button_grouped') ?? false;
 
 	const sizes = {
 		xs: 'px-3 py-2 text-xs',
@@ -76,6 +76,7 @@
 	on:keyup
 	on:mouseenter
 	on:mouseleave
+	{...$$restProps}
 >
 	<slot />
 </svelte:element>

@@ -1,4 +1,6 @@
-<script>
+<script lang="ts">
+	import '@preline/dropdown';
+
 	import { Button } from '$lib';
 </script>
 

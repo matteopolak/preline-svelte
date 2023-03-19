@@ -3,12 +3,15 @@
 	import { setContext } from 'svelte';
 
 	export let color: Color = 'primary';
+	export let border = false;
 
 	setContext('navbar_color', color);
 </script>
 
 <header
-	class="flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-neutral-200 text-sm py-4 dark:bg-neutral-800"
+	class="flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-neutral-200 text-sm py-4 dark:bg-neutral-800 {border
+		? 'border-b border-neutral-300 dark:border-neutral-700'
+		: ''}"
 >
 	<nav
 		class="max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between"
@@ -20,7 +23,7 @@
 				class="inline-flex items-center gap-x-2 text-xl font-semibold dark:text-white"
 				href="#"
 			>
-				<slot name="brand">
+				<slot name="logo">
 					<svg
 						class="w-10 h-auto"
 						width="100"

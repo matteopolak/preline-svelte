@@ -9,18 +9,31 @@ export { default as AccordionItem } from './accordion/AccordionItem.svelte';
 
 export { default as Alert } from './alert/Alert.svelte';
 
+export { default as Avatar } from './avatar/Avatar.svelte';
+export { default as AvatarGroup } from './avatar/AvatarGroup.svelte';
+
 export { default as Badge } from './badge/Badge.svelte';
 
 export { default as Button } from './button/Button.svelte';
 export { default as ButtonGroup } from './button/ButtonGroup.svelte';
 
+export { default as Card } from './card/Card.svelte';
+
 export { default as Dropdown } from './dropdown/Dropdown.svelte';
+
+export { default as Indicator } from './indicator/Indicator.svelte';
 
 export { default as List } from './list/List.svelte';
 export { default as ListItem } from './list/ListItem.svelte';
 
+export { default as Modal } from './modal/Modal.svelte';
+
 export { default as Navbar } from './navbar/Navbar.svelte';
 export { default as NavbarItem } from './navbar/NavbarItem.svelte';
+
+export { default as Progress } from './progress/Progress.svelte';
+
+export { default as Spinner } from './spinner/Spinner.svelte';
 
 export { default as Table } from './table/Table.svelte';
 export { default as TableBody } from './table/TableBody.svelte';

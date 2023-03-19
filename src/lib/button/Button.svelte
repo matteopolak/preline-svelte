@@ -33,6 +33,7 @@
 		on:keyup
 		on:mouseenter
 		on:mouseleave
+		{...$$restProps}
 	>
 		<slot />
 	</SolidButton>
@@ -49,6 +50,7 @@
 		on:keyup
 		on:mouseenter
 		on:mouseleave
+		{...$$restProps}
 	>
 		<slot />
 	</OutlineButton>
@@ -65,6 +67,7 @@
 		on:keyup
 		on:mouseenter
 		on:mouseleave
+		{...$$restProps}
 	>
 		<slot />
 	</GhostButton>
@@ -81,6 +84,7 @@
 		on:keyup
 		on:mouseenter
 		on:mouseleave
+		{...$$restProps}
 	>
 		<slot />
 	</SoftButton>
@@ -97,6 +101,7 @@
 		on:keyup
 		on:mouseenter
 		on:mouseleave
+		{...$$restProps}
 	>
 		<slot />
 	</LinkButton>

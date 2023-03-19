@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Dropdown, type Theme } from '$lib';
+	import { Dropdown } from '$lib';
 	import { theme } from '../../stores/theme';
 	import colors from 'tailwindcss/colors';
 	import { browser } from '$app/environment';
