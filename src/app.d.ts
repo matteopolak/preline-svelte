@@ -1,6 +1,6 @@
 // See https://kit.svelte.dev/docs/types#app
 
-import type { ThemeColor } from "./stores/theme";
+import type { ThemeColor } from "./lib/stores/theme";
 
 // for information about these interfaces
 declare global {

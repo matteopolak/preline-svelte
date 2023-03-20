@@ -1,4 +1,4 @@
-import type { ThemeColor } from '../stores/theme';
+import type { ThemeColor } from '../lib/stores/theme';
 import type { LayoutServerLoad } from './$types';
 
 export const load = (({ cookies }) => {

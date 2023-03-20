@@ -5,7 +5,7 @@
 	import colors from 'tailwindcss/colors';
 	import { browser } from '$app/environment';
 	import { page } from '$app/stores';
-	import { hexToRgb } from '../stores/theme';
+	import { hexToRgb } from '../lib/stores/theme';
 	import { Spinner } from '$lib';
 
 	let ready = false;

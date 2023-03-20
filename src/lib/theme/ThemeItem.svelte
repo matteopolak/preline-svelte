@@ -1,6 +1,6 @@
 <script lang="ts">
 	import type { Color } from '$lib';
-	import { theme } from '../../stores/theme';
+	import { theme } from '../stores/theme';
 
 	export let name: string;
 	export let description: string | undefined = undefined;

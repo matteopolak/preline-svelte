@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { Button, Dropdown } from '$lib';
-	import { hexToRgb, theme } from '../../stores/theme';
+	import { hexToRgb, theme } from '../stores/theme';
 	import colors from 'tailwindcss/colors';
 	import { browser } from '$app/environment';
 
