@@ -1,7 +1,7 @@
 import type { Color } from "$lib";
 import { writable } from "svelte/store";
 
-type ThemeColor = Exclude<Color, "primary" | "secondary">;
+export type ThemeColor = Exclude<Color, "primary" | "secondary">;
 
 export type Theme = {
 	primary: ThemeColor,
@@ -14,3 +14,11 @@ export const theme = writable<Theme>({
 	secondary: 'red',
 	neutral: 'neutral'
 });
+
+export function hexToRgb(hex: string) {
+	const r = parseInt(hex.slice(1, 3), 16);
+	const g = parseInt(hex.slice(3, 5), 16);
+	const b = parseInt(hex.slice(5, 7), 16);
+
+	return `${r} ${g} ${b}`;
+}

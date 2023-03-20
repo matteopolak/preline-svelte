@@ -8,8 +8,8 @@
 	class="hs-dropdown relative inline-flex"
 	data-hs-dropdown-auto-close="inside"
 >
-	<Button>
-		<slot name="button">
+	<slot name="button">
+		<Button>
 			<svg
 				class="hs-dropdown-open:rotate-180 w-2.5 h-2.5"
 				width="16"
@@ -25,8 +25,8 @@
 					stroke-linecap="round"
 				/>
 			</svg>
-		</slot>
-	</Button>
+		</Button>
+	</slot>
 
 	<div
 		class="hs-dropdown-menu transition-[opacity,margin] duration hs-dropdown-open:opacity-100 opacity-0 hidden mt-2 min-w-[15rem] bg-white shadow-md rounded-lg p-2 mt-2 dark:bg-neutral-800 dark:border dark:border-neutral-700"

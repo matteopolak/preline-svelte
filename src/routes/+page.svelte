@@ -18,10 +18,10 @@
 		NavbarItem,
 		Accordion,
 		AccordionItem,
-		Card,
 		Progress,
 		Spinner,
 		Modal,
+		Container,
 	} from '$lib';
 </script>
 
@@ -66,28 +66,6 @@
 	<NavbarItem>Examples</NavbarItem>
 	<NavbarItem>Plugins</NavbarItem>
 	<NavbarItem>Figma</NavbarItem>
-</Navbar>
-
-<div class="container">
-	<Alert withIcon color="blue" soft>
-		Watch out!
-		<p slot="description">Description here.</p>
-	</Alert>
-	<Button color="secondary" pill type="ghost">Hey there</Button>
-	<Button color="secondary" pill type="link">Hey there</Button>
-
-	<ButtonGroup>
-		<Button color="secondary" pill type="outline">Hey there</Button>
-		<Button color="secondary" pill type="soft">Hey there</Button>
-		<Button color="secondary" pill type="solid">Hey there</Button>
-	</ButtonGroup>
-
-	<List>
-		<ListItem color="secondary">Hey there</ListItem>
-		<ListItem>Hey there</ListItem>
-		<ListItem>Hey there</ListItem>
-	</List>
-
 	<Theme>
 		<ThemeItem
 			name="Shore"
@@ -108,6 +86,27 @@
 			description="A refreshing and zesty theme."
 		/>
 	</Theme>
+</Navbar>
+
+<Container>
+	<Alert withIcon color="blue" soft>
+		Watch out!
+		<p slot="description">Description here.</p>
+	</Alert>
+	<Button color="secondary" pill type="ghost">Hey there</Button>
+	<Button color="secondary" pill type="link">Hey there</Button>
+
+	<ButtonGroup>
+		<Button color="secondary" pill type="outline">Hey there</Button>
+		<Button color="secondary" pill type="soft">Hey there</Button>
+		<Button color="secondary" pill type="solid">Hey there</Button>
+	</ButtonGroup>
+
+	<List>
+		<ListItem color="secondary">Hey there</ListItem>
+		<ListItem>Hey there</ListItem>
+		<ListItem>Hey there</ListItem>
+	</List>
 
 	<Badge>Hello</Badge>
 	<Badge color="emerald" type="soft" pill>Hello</Badge>
@@ -153,4 +152,4 @@
 	<Spinner color="emerald" />
 
 	<Modal>Hello, world.</Modal>
-</div>
+</Container>

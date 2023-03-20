@@ -19,6 +19,8 @@ export { default as ButtonGroup } from './button/ButtonGroup.svelte';
 
 export { default as Card } from './card/Card.svelte';
 
+export { default as Container } from './container/Container.svelte';
+
 export { default as Dropdown } from './dropdown/Dropdown.svelte';
 
 export { default as Indicator } from './indicator/Indicator.svelte';

@@ -1,9 +1,19 @@
 // See https://kit.svelte.dev/docs/types#app
+
+import type { ThemeColor } from "./stores/theme";
+
 // for information about these interfaces
 declare global {
 	namespace App {
 		// interface Error {}
-		// interface Locals {}
+		interface PageData {
+			theme: {
+				primary: ThemeColor;
+				secondary: ThemeColor;
+				neutral: ThemeColor;
+			}
+		}
+
 		// interface PageData {}
 		// interface Platform {}
 	}
